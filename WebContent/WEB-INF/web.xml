@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+	
+	<display-name>comente-sobre</display-name>
+  
+	<servlet>
+		<display-name>Log4jInit</display-name>
+		<servlet-name>Log4jInit</servlet-name>
+		<servlet-class>br.com.comentesobre.servlet.Log4jInit</servlet-class>
+		<init-param>
+      		<param-name>log4j-init-file</param-name>
+      		<param-value>WEB-INF/log4j.properties</param-value>
+    	</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Log4jInit</servlet-name>
+		<url-pattern>/Log4jInit</url-pattern>
+	</servlet-mapping>	
+</web-app>
