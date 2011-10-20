@@ -2,6 +2,7 @@
 
 label {
 	font-size: 15px;
+
 }
 
 body {
@@ -50,8 +51,8 @@ body {
 	border-radius: 10px;
 	padding: 15px;
 	min-width: 300px;
-	border: 1px solid #A9A9A9;	
-}	
+	border: 1px solid #A9A9A9;
+}
 
 .formulario-visitante div {
 	width: 302px;
@@ -111,7 +112,7 @@ input {
 }
 
 #palavraChave_comentario {
-	font-size: 14px; 
+	font-size: 14px;
 	font-weight: bold;
 }
 
@@ -153,3 +154,4 @@ table tr td {
 	font-size: 18px;
 	font-weight: bold;
 }
+
