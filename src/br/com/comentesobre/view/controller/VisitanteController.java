@@ -30,6 +30,7 @@ public class VisitanteController {
 	@Get
 	@Path("/")
 	public void formularioVisitante() {
+		System.out.println("######################TESTE");
 	}
 	
 	@Post
