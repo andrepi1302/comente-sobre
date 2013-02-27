@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.PropertyConfigurator;
 
+// TESTE COMMIT VIA PLUGIN ECLIPSE FOR GIT //////
 public class Log4jInit extends HttpServlet {
 
 	private static final long serialVersionUID = 8177484244723182200L;
